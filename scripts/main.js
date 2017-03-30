@@ -11,8 +11,8 @@ var jeu = document.getElementById("jeu"),
     gamestart = 0,
     vitesse = 250;
 var score=0;
-var scoresdiv= document.getElementById("scores");
-var highscore= document.getElementById("highScorediv");
+var scoresdiv= document.getElementByClassName("scores");
+var highscore= document.getElementByClassName("highScorediv");
 var varhigh = 0;
 
 
@@ -104,14 +104,14 @@ else if(gamestart==0) {
 
 function scorefonc(){
   score +=1 ;
-  scoresdiv.innerHTML="Votre Score :"+ (score);
+  scoresdiv.innerHTML="Score :"+ (score);
   highscoreFunc();
 }
 
  function highscoreFunc(){
   if(varhigh<=score){
     varhigh=score;
-    highscore.innerHTML="Votre High Score:"+ (varhigh);
+    highscore.innerHTML="High Score:"+ (varhigh);
   }
   else if(highscore>score){
     ;
@@ -125,3 +125,6 @@ window.addEventListener("keydown", function(e) {
         e.preventDefault();
     }
 }, false);
+
+
+
