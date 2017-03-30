@@ -1,0 +1,130 @@
+#jeu{
+  
+ 
+  position: relative;
+  margin-top: 20px;
+  margin-left: 650px;
+  background-image: url(../images/Fotolia_81556974_Subscription_Monthly_M.jpg);
+ display: inline-block;
+}
+
+#balle{
+  position: absolute;
+  transition: 0.5s linear;
+  background-image: url(../images/avion.png);
+}
+
+#speakeron{
+  margin-left: 90%;
+  margin-top: -70px;
+}
+
+ 
+
+
+
+#Lesscores{
+  font-family: 'Arcade Normal', cursive;
+ 
+ 
+ font-size: 300%;
+ color:whitesmoke;
+ 
+ 
+}
+
+
+
+
+/***/ 
+body{
+text-align: center;
+background-image: url(../images/fond.png) ;
+
+
+}
+div#jeu{
+
+width:700px;
+height:700px;
+border:2px solid ;
+margin:0 auto;
+}
+/*HEADER*/
+
+.header{
+background-color:whitesmoke;
+width:100%;
+height:70px;
+display: inline-block;
+ margin-bottom:50px;
+}
+
+.header img {
+ padding-top:15px;
+ text-align: center; 
+}
+
+.lien1{
+ color:black;
+  display:inline-block;
+  padding:5px 10px;
+  
+  text-transform: uppercase;
+  text-decoration:  none;
+  border-radius: 3px;
+ margin-right:40px;
+ font-family: 'Arcade Normal', cursive;
+}
+a.lien1:hover{
+
+    background-color: #7D1424;    
+   border: solid 1px ;
+   
+}
+.lien2{
+ color:black;
+  display:inline-block;
+  padding:5px 10px;
+  text-transform: uppercase;
+  text-decoration:  none;
+  border-radius: 3px;
+  margin-left:40px;
+ font-family: 'Arcade Normal', cursive;
+}
+a.lien2:hover{
+ background-color: antiquewhite;    
+ border: solid 1px ;
+}
+
+/*CONTENU*/
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+margin-top:40px;
+background-color:whitesmoke;
+}
+
+footer nav li {
+list-style: none;
+display: inline-block;
+padding: 20px 20px;;
+font-weight: 300;
+font-size: 18px;
+text-decoration: none;
+color:white;
+}
+
+footer img {
+ width:40px;
+ height:40px;
+}
