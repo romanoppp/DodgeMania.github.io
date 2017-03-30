@@ -70,7 +70,7 @@ header img {
 }
 
 
-.lien1{
+.link1{
  color:#63566b;
  display:inline-block;
  margin-top: 20px;
@@ -81,11 +81,11 @@ header img {
  margin-right:40px;
  font-family: 'Arcade Normal', cursive;
 }
-a.lien1:hover{
+a.link1:hover{
   color: #41b8bb;   
 
 }
-.lien2{
+.link2{
  color:#63566b;
  display:inline-block;
  padding-top: 15px;
@@ -95,7 +95,7 @@ a.lien1:hover{
  margin-left:40px;
  font-family: 'Arcade Normal', cursive;
 }
-a.lien2:hover{
+a.link2:hover{
  color: #41b8bb;   
 }
 
