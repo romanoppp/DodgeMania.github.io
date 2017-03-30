@@ -105,6 +105,13 @@ a.link2:hover{
 }
 
 /*CONTENU*/
+.appuyez{
+  text-align: center;
+  color: white;
+  font-family: 'Arcade Normal', cursive;
+  font-size: 25px;
+}
+
 
 section div.title{
   width: 33%;
@@ -168,12 +175,6 @@ footer nav ul li a img{
 }
 
 
-.appuyez{
-  text-align: center;
-  color: white;
-  font-family: 'Arcade Normal', cursive;
-  font-size: 25px;
-}
 
 
 
