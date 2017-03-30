@@ -1,75 +1,85 @@
 <html lang="fr">
- <head>
+<head>
   <meta charset="utf-8" />
   <title>Page</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" href="styles/bootstrap.min.css"
-        </head>
-  <body>
-   <head>
-    <meta charset="utf-8" />
-    <title>Mon jeu</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/style.css">
-   </head>
-   <!--*********************************-->
-   <body>
-    <header>
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+</head>
 
 
+<!--*********************************-->
 
-     <div class="header">
-      <div class="vaisceau">
-       <a href="#" class="lien1">Accueil</a>
-       <img src="images/vaisseau.png" href="logo">
-       <a href="#" class="lien2">Jeu</a>
+<body>
+  <header>
+    <div class="menu">
+      <a href="#" class="lien1">Accueil</a>
+      <img src="images/vaisseau.png" href="logo"/>
+      <a href="#" class="lien2">Jeu</a>
+    </div>
 
-      </div>
-     </div>
-
-     <div class="son">
+    <div class="son">
       <img src="images/speaker.png" id="speakeron"  onclick="change();" >
-     </div>
-    </header>
-    <!--Contenu-->
+    </div>
+  </header>
 
 
+  <!--Contenu-->
 
-    <div><img src="images/titre.png" alt="titre"</div>>
+  <section>
+    <div class="titre">
+      <h1><img src="images/titre.png" alt="titre"></h1>
+    </div>
+
+    <div id ="jeu">
+      <h2 id="score">Score : 0</h2></br>
+      <h3 id="score2">High Score: 0</h3>
+      <div id="balle"></div>
+    </div>
+
+    <audio src="music/Undertale-Megalovania.mp3"  id="musique" loop>Veuillez mettre votre navigateur à jour</audio>
 
 
-
-     <div class="page">
-
-      <div id="Lesscores"> 
-       <h2 id="scores"> Votre Score : 0
-        <h3 id="highScorediv">Votre High Score: 0</h3>
-       </h2>
-       <div id="jeu">
-        <div id="balle"></div>
-       </div>
-
-      </div>
-     </div>
-     <audio src="music/Undertale-Megalovania.mp3"  id="musique" loop>Veuillez mettre votre navigateur à jour</audio>
-     <footer>
+    <footer>
       <nav>
-       <ul>
-        <li><a href="https://www.facebook.com/Dodge-Mania-1247447981959485/…">
-         <img src="images/fb.png" href="logo" class="taille"</a></li>
-        <li><img src="images/twitter.png" href="logo" class="taille"</li>
-        <li><img src="images/youtube.png" href="logo" class="taille"</li>
-       </ul>
+        <ul>
+          <li class="logo">
+            <a href="https://www.facebook.com/Dodge-Mania-1247447981959485/…">
+              <img src="images/fbpurple.png" href="logo" class="taille"/>
+            </a>
+          </li>
 
-
+          <li class="logo">
+            <a href="https://www.twitter.com/DodgeManiagame">
+              <img src="images/twitterpurple.png" 
+            </a>
+          </li>
+          <li class="logo">
+            <a href="https://www.youtube.com/channel/UCbQPwdCun6usiDuBkzWZxLA">
+              <img src="images/youtubepurple.png" alt="youtube"/>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>Acceuil</li>
+          <li><a href="pages/index.html">Jeux</a></li>
+          <li>Qui sommes nous ?</li>
+          <li>Contact</li>
+          <li>FAQ</li>
+        </ul>
+        <ul>
+          <li>Français</li>
+          <li>English</li>
+          <li>Spanish</li>
+          <li>Deutsch</li>
+          <li>Italiano</li>
+        </ul> 
       </nav>
-     </footer>
-     <script src="scripts/main.js">
-     </script>
-     <script src="scripts/audio.js">
-     </script>
-     <script src="scripts/jquery-min.js"></script>
-     </body>
+    </footer>
+    <script src="scripts/main.js">
+    </script>
+    <script src="scripts/audio.js">
+    </script>
+    <script src="scripts/jquery-min.js</script>
+    </body>
     </html>
-
